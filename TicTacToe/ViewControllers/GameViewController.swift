@@ -16,7 +16,7 @@ class GameViewController: UIViewController, BoardViewControllerDelegate {
         case won(GameBoard.Mark) // Winning player
     }
     
-    // MARK: - Properties
+    // MARK: - Propertiesa
     
     private var boardViewController: BoardViewController! {
         willSet {
